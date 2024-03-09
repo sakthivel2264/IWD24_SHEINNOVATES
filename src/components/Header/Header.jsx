@@ -1,10 +1,15 @@
 import { Link } from "react-router-dom";
 
 const  Header = () => {
+
+  const handleFAQ = () =>{
+    window.location.href = "/FAQ"
+  }
+
   return (
     <header className=" mx-64 py-8 w-full flex justify-between items-center text-white my-50">
       {/* Logo Section */}
-      <div className="flex justify-center items-center text-2xl ">NewLife</div>
+      <div className="flex justify-center items-center text-2xl ">SheSearch</div>
 
       {/* Navigation section */}
       <ul className="flex justify-center items-center gap-20">
@@ -14,11 +19,9 @@ const  Header = () => {
         <li className="text-white hover:text-purple-700  cursor-pointer">
           Testimonials
         </li>
-        <Link to="/FAQ">
-        <li className="text-white hover:text-purple-700  cursor-pointer">
+        <li className="text-white hover:text-purple-700  cursor-pointer" onClick={handleFAQ}>
           FAQ
         </li>
-        </Link>
       </ul>
 
       {/* Get Started button */}

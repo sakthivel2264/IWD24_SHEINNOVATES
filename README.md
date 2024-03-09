@@ -1,5 +1,5 @@
 <p align="center">
-  <span style="font-size: 20px;">MotherMind NewLife An open-source, generative AI-powered assistant designed to provide comprehensive information,</span><br>
+  <span style="font-size: 20px;">MotherMind SheSearch An open-source, generative AI-powered assistant designed to provide comprehensive information,</span><br>
   <span style="font-size: 16px;">advice, and support for expectant mothers during their pregnancy journey.</span><br>
 </p>
 

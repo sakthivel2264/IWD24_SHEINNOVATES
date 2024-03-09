@@ -24,7 +24,7 @@ const Chat = () => {
     };
 
     const loadingMessage = {
-      username: "NewLife",
+      username: "SheSearch",
       message: "AI is thinking",
       isLoading: true,
     };
@@ -37,8 +37,8 @@ const Chat = () => {
 
     // API CALL
     const response = await askOpenAI(message);
-    const newLifeAIMessage = response;
-    const aiMessage = { username: "NewLife", message: newLifeAIMessage };
+    const SheSearchAIMessage = response;
+    const aiMessage = { username: "SheSearch", message: SheSearchAIMessage };
 
     setMessages((currentMessages) => {
       return currentMessages.map((m, index) =>

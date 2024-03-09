@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="mx-auto flex justify-evenly items-center w-full">
         <div className="flex flex-col gap-1 justify-center items-start">
           <Link to="/">
-            <div className="text-4xl font-bold">NewLife</div>
+            <div className="text-4xl font-bold">SheSearch</div>
           </Link>
           <div className="text-xl text-gray-400">
             Pregnency Question Web App
@@ -41,7 +41,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-gray-400 text-lg">
-        &#169; NewLife 2024. All rights reserved.
+        &#169; SheSearch 2024. All rights reserved.
       </div>
     </div>
   );

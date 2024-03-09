@@ -7,19 +7,19 @@ const Categories = () => {
   const handleButtonClick = (item) => {
     
     if (item === "Childhood") {
-      window.location.href = "/chat";
+      window.location.href = "/childhood";
     }
     if (item === "Adulthood") {
-      window.location.href = "/chat";
+      window.location.href = "/adulthood";
     }
     if (item === "Pregnant Women") {
       window.location.href = "/pregnantwomen";
     }
     if (item === "Middle Age") {
-      window.location.href = "/chat";
+      window.location.href = "/middleage";
     }
-    if (item === "Senior Years") {
-      window.location.href = "/chat";
+    if (item === "Old Age") {
+      window.location.href = "/senioryears";
   }
 };
 
@@ -29,7 +29,7 @@ const Categories = () => {
       <Header />
       <div className="container  py-20 mx-auto my-1o flex justify-center items-center gap-20 flex-col">
         <ul className="space-y-4 flex gap-20">
-          {["Childhood", "Adulthood", "Pregnant Women", "Middle Age", "Senior Years"].map((item, index) => (
+          {["Childhood", "Adulthood", "Pregnant Women", "Middle Age", "Old Age"].map((item, index) => (
             <li key={index}>
               <button
                 className="bg-indigo-700 text-white text-xl px-3 py-2 rounded-2xl hover:bg-purple-900 transition-colors duration-300"

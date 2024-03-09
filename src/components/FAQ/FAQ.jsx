@@ -25,29 +25,29 @@ const FaqItem = ({ question, answer }) => {
 const FAQ = () => {
   const pregnancyFAQ = [
     {
-      question: "What physical changes can I expect during pregnancy?",
+      question: "What are the recommended screenings for women's health?",
       answer:
-        "During pregnancy, you may experience physical changes such as weight gain, hormonal shifts, changes in breast size, stretch marks, and increased fatigue. It's important to embrace these changes as a natural part of the journey to motherhood.",
+        "Recommended screenings for women's health include mammograms for breast cancer, Pap smears for cervical cancer, and bone density scans for osteoporosis.",
     },
     {
-      question: "How can I manage morning sickness?",
+      question: "What are some strategies for achieving work-life balance?",
       answer:
-        "Morning sickness, which may occur at any time of the day, can be managed by eating small, frequent meals, staying hydrated, getting plenty of rest, and avoiding triggers such as strong odors. If morning sickness becomes severe or persistent, consult with your healthcare provider.",
+        "Strategies for achieving work-life balance include setting boundaries, prioritizing tasks, and scheduling regular breaks for self-care and relaxation.",
     },
     {
-      question: "What emotions are common during pregnancy?",
+      question: "What are some tips for maintaining healthy relationships?",
       answer:
-        "Pregnancy can bring a wide range of emotions, including joy, excitement, anxiety, and occasional mood swings. It's normal to experience fluctuating emotions as you navigate this new chapter in your life. Connecting with other expectant mothers, practicing self-care, and communicating openly with your partner can help manage these emotions.",
+        "Tips for maintaining healthy relationships include effective communication, mutual respect, and prioritizing quality time together.",
     },
     {
-      question: "How can I prepare for childbirth?",
+      question: "How can women prioritize their mental health and well-being?",
       answer:
-        "Preparing for childbirth involves educating yourself about the process of labor and delivery, attending prenatal classes, creating a birth plan, and discussing your options with your healthcare provider. It's also important to take care of your physical and emotional well-being leading up to the birth of your baby.",
+        "Women can prioritize their mental health and well-being by practicing self-care, seeking support from friends and professionals, and setting boundaries to manage stress effectively.",
     },
     {
-      question: "What should I include in my prenatal care routine?",
+      question: "What are some strategies for balancing parenting responsibilities with career aspirations?",
       answer:
-        "Your prenatal care routine should include regular check-ups with your healthcare provider, taking prenatal vitamins, eating a balanced diet, staying active with safe exercises, getting enough rest, and avoiding harmful substances such as alcohol and tobacco. Your healthcare provider will monitor your health and the development of your baby throughout your pregnancy.",
+        "Strategies for balancing parenting responsibilities with career aspirations include setting realistic expectations, delegating tasks, and establishing flexible work arrangements when possible.",
     },
   ];
 
