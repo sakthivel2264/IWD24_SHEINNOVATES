@@ -4,7 +4,7 @@ import { FaTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="flex flex-col gap-10 justify-between items-center w-full bg-black text-gray-300 py-6 pt-10 text-sm">
+    <div className="flex flex-col gap-10 justify-between items-center w-full bg-fuchsia-900 text-gray-300 py-6 pt-10 text-sm">
       <div className="mx-auto flex justify-evenly items-center w-full">
         <div className="flex flex-col gap-1 justify-center items-start">
           <Link to="/">

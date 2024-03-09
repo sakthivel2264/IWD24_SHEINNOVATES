@@ -1,6 +1,6 @@
 import Header from "../../components/Header";
 import Layout from "../../layout/Layout";
-
+import Footer from "../../components/Footer"
 
 const Categories = () => {
   
@@ -27,12 +27,12 @@ const Categories = () => {
     <>
     <Layout>
       <Header />
-      <div className="container  py-20 mx-auto my-1o flex justify-center items-center gap-20 flex-col">
-        <ul className="space-y-4 flex gap-20">
+      <div className="container  py-40 mx-auto my-1o flex justify-center items-center gap-20 flex-col">
+        <ul className="space-y-4  gap-20">
           {["Childhood", "Adulthood", "Pregnant Women", "Middle Age", "Old Age"].map((item, index) => (
             <li key={index}>
               <button
-                className="bg-indigo-700 text-white text-xl px-3 py-2 rounded-2xl hover:bg-purple-900 transition-colors duration-300"
+                className="bg-indigo-700 text-white text-xl px-3 py-2 rounded-2xl hover:bg-purple-900 transition-colors duration-300 drop-shadow-lg"
                 onClick={() => handleButtonClick(item)}
               >
                 {item}
@@ -42,6 +42,7 @@ const Categories = () => {
         </ul>
       </div>
     </Layout>
+    <Footer />
     </>
   );
 };
