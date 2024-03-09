@@ -11,7 +11,7 @@ const Footer = () => {
             <div className="text-4xl font-bold">SheSearch</div>
           </Link>
           <div className="text-xl text-gray-400">
-            Pregnency Question Web App
+            Personalized Question Web App
           </div>
           <div className="mt-3 flex text-xl gap-2 text-gray-500 ">
             <FaFacebook className="hover:text-purple-900" />

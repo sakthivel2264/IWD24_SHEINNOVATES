@@ -14,7 +14,7 @@ const Feature = () => {
             <br />
             <span className=" text-center bg-gradient-to-r from-yellow-300 to-orange-400 text-transparent bg-clip-text">
               {" "}
-              Personalised Question
+              Personalized Question
             </span>
           </div>
           <span>Web App</span>
