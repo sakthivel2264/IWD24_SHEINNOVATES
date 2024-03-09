@@ -2,11 +2,13 @@ import {Link} from "react-router-dom"
 import Layout from "../../layout/Layout"
 import Footer from "../../components/Footer"
 import Header from "../../components/Header"
+import SearchBar from "../../components/SearchBar/SearchBar"
 const Childhood = () => {
   return (
     <>
     <Layout>
         <Header/>
+        <SearchBar/>
         <div>
             <h1 className="text-white">Childhood</h1>
             <div className="child-video p-10">
